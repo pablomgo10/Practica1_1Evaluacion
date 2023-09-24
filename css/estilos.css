@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header h1 a:hover{
+    text-decoration: none;
+    color: rgb(240, 93, 80, 0.5);
+}
+
+header h1 a{
+    text-decoration: none;
+    color: rgb(240, 93, 80);
+}
+nav div:first-child{
+    font-style: italic;
+    font-weight: bold;
+}
+nav div{
+    padding: 3px;
+}
+
+nav div a{
+    text-decoration: none;
+    color: black;
+}
+
+
