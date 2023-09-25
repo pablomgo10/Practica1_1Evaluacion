@@ -173,8 +173,10 @@ ol {
     font-weight: 700;
     margin-left: 30%;
     color: rgb(0, 0, 25, 0.5);
+    list-style-image: url(../img/idioma.png);
 }
 
-.nombre {
-    color: red
+ul li {
+    font-weight: 100;
+    list-style: square;
 }
