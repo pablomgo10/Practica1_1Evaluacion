@@ -12,17 +12,17 @@ main{
 }
 
 
-header {
+.header_letras {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-header h1 a:hover {
+.header_letras h1 a:hover {
     text-decoration: none;
     color: rgb(240, 93, 80, 0.5);
 }
 
-header h1 a {
+.header_letras h1 a {
     text-decoration: none;
     color: rgb(240, 93, 80);
 }
@@ -82,10 +82,7 @@ h1 {
     font-size: 40px;
 }
 
-h2{
-    font-size: 20px;
-    font-weight: 550;
-}
+
 
 figure{
     margin-top: 2%;
@@ -94,6 +91,26 @@ figure{
 
 figcaption{
     margin-top: 1%;
+}
+
+dt{
+    font-size: 20px;
+    font-weight: 550;
+}
+dd{
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+dd time{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: grey;
+}
+dd cite{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .cita {
@@ -187,10 +204,4 @@ ul li {
     padding-top: 2%;
     text-align: center;
     padding-bottom: 5%;
-}
-
-.motivacion-page p{
-    margin-left: 2%;
-    margin-top: 1%;
-    margin-bottom: 1%;
 }
